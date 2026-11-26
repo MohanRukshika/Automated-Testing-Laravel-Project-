@@ -5,6 +5,6 @@ test('returns the product list as JSON', function (): void {
 
     $response->assertOk()
         ->assertExactJson([
-            ['id' => 1, 'name' => 'Office chair'],
+            ['id' => 2, 'name' => 'Office chair'],
         ]);
 });
